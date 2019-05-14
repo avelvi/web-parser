@@ -102,3 +102,12 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# idea
+.idea
+
+# logs
+/logs
+
+# dev properties
+/properties/dev.json

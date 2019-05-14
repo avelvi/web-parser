@@ -1,0 +1,32 @@
+{
+  "timezone": "Europe/Kiev",
+  "default_timezone": "UTC",
+  "log_level": "INFO",
+  "recipients": [
+
+  ],
+  "smtp": {
+    "address" : "smtp.gmail.com",
+    "port": 465,
+    "user": "<REPLACE_ME>",
+    "password": "<REPLACE_ME>"
+
+  },
+  "sites": [
+    {
+      "url": "<REPLACE_ME>",
+      "interval": 1,
+      "start_time_notification": "08:00",
+      "end_time_notification": "23:00",
+      "tag": {
+        "name": "<REPLACE_ME>",
+        "clazz": "<REPLACE_ME>",
+        "child_tag": {
+
+        }
+      },
+      "keys": ["<REPLACE_ME>"]
+    }
+  ]
+
+}
