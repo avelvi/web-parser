@@ -1,5 +1,5 @@
 echo default > .env
-pip3 install virtualenv
+pip install virtualenv
 virtualenv .venv
-source .venv\bin\activate
-pip3 install -r requirements.txt
+.venv\Scripts\activate
+pip install-r requirements.txt
